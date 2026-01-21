@@ -1,0 +1,22 @@
+{
+  "name": "permissionchecker/laravel-env-checker",
+  "description": "One-time install Artisan CLI to diagnose Laravel environment, Docker, permission, and execution issues",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10|^11|^12"
+  },
+  "autoload": {
+    "psr-4": {
+      "EnvChecker\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EnvChecker\\EnvCheckerServiceProvider"
+      ]
+    }
+  }
+}
