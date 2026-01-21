@@ -12,7 +12,7 @@
 
 It focuses on **why Laravel fails**, not on modifying your system or code.
 
-Inspired by tools like `mlenvdoctor`, but built **specifically for Laravel**.
+
 
 ---
 
